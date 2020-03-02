@@ -22,14 +22,14 @@ using libraries(
 	"golang.org/x/crypto/bcrypt"
 )
 
-This project that is example of (
+This project that is a example of (
 
 handling cookies, 
 go validator,
 sqlite3,
 handling of templates,
 reading and writing of files,
-How to upload files
+How to upload files,
 flash massages using cookies
 )
 
