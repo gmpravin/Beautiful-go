@@ -1,0 +1,57 @@
+{{define "signuppage"}}
+
+{{template "header" .}}
+
+
+
+    <h1>Sign Up</h1>
+    <div>
+
+        <form method="POST" action="/signup">
+        {{with .Errors.username}}
+        <div class="alert alert-danger">
+            {{.}}
+        </div>
+        {{end}}
+            <label for="username">User Name</label><br>
+            <input type="text" id="username" name="username"><br>
+            {{with .Errors.fname}}
+            <div class="alert alert-danger">
+                {{.}}
+            </div>
+            {{end}}
+            <label for="fName">First Name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            {{with .Errors.lname}}
+            <div class="alert alert-danger">
+                {{.}}
+            </div>
+            {{end}}
+            <label for="lName">Last Name</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            {{with .Errors.email}}
+        <div class="alert alert-danger">
+            {{.}}
+        </div>
+        {{end}}
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br>
+            {{with .Errors.password}}
+        <div class="alert alert-danger">
+            {{.}}
+        </div>
+        {{end}}
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password"><br>
+            <label  for="cpassword">Confirm Password</label><br>
+            <input type="password" id="cpassword" name="cpassword"><br>
+            <center style="padding: 25px;"><button type="submit">Submit</button></center>
+          
+        </form>
+    </div>
+    <div>
+        <a href="/">Sign In!</a>
+    </div>
+{{template "footer" .}}
+
+{{end}}

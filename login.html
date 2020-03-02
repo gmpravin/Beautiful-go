@@ -1,0 +1,55 @@
+{{define "loginpage"}}
+{{template "header" .}}
+
+
+
+
+    <h1>Login</h1>
+    {{with .Errors.Message}}
+    <div class="alert alert-danger">
+        {{.}}
+    </div>
+    {{end}}
+    <div>
+        <form method="POST" action="/login">
+            <label for="uname">User Name</label><br>
+            <input type="text" id="uname" name="uname"><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password">
+            <br>
+            <center style="padding: 25px;"><button onclick="validates()" type="submit">Submit</button></center>
+        </form>
+    </div><br>
+    <div>
+        <a href="/signup">Sign Up</a>
+    </div>
+    <script>
+
+const validate=()=>{
+    let un=document.getElementById("uname").value;
+    let ps=document.getElementById("password").value;
+
+    if(un==""&&ps==""){
+        alert("You need to enter the login details")
+    }else if(un==""){
+        alert("You need to enter the user name")
+    }else if(ps==""){
+        alert("You need to enter the password")
+    }
+    
+      
+    
+    
+
+}
+
+    
+    
+    </script>
+
+
+
+
+
+{{template "footer" .}}
+{{end}}

@@ -1,0 +1,18 @@
+{{define "showIndex"}}
+{{template "header" .}}
+<div>
+    <h1>Welcome!</h1>
+    <hr>
+
+    <strong>Hello User: {{.Username}}</strong>
+</div>
+<div>
+    <div>
+        what would you like to do today?
+    </div>
+</div>
+<form action="/logout" method="post">
+    <button type="submit">Logout</button>
+</form>
+{{template "footer" .}}
+{{end}}
