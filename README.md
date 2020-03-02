@@ -1,6 +1,6 @@
 # Beautiful-go
 
-Im created simple project while learning of go
+#/////////////////////////////////simple project while learning of go/////////////////////////////////////////////////
 
 using libraries(
  "crypto/rand"
