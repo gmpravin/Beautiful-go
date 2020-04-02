@@ -2,6 +2,25 @@
 
 ///////////////////////////////// Simple project deveolped while learning of go /////////////////////////////////////////////////
 
+
+This project that is a example of (
+
+handling cookies, 
+go validator,
+sqlite3,
+handling of templates,
+reading and writing of files,
+How to upload files,
+flash massages using cookies
+)
+
+////////////////////////////////////////////////
+clone the repo
+////////////////////////////////////////////////
+
+go run main.go (OR) go build main.go 
+////////////////////////////////////////////////
+PR is welcome:)
 using libraries(
  "crypto/rand"
 	"database/sql"
@@ -21,22 +40,3 @@ using libraries(
 	uuid "github.com/satori/go.uuid"
 	"golang.org/x/crypto/bcrypt"
 )
-
-This project that is a example of (
-
-handling cookies, 
-go validator,
-sqlite3,
-handling of templates,
-reading and writing of files,
-How to upload files,
-flash massages using cookies
-)
-
-////////////////////////////////////////////////
-clone the repo
-////////////////////////////////////////////////
-
-go run main.go (OR) go build main.go 
-
-
