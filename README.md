@@ -1,5 +1,5 @@
 # Beautiful-go
-![code quality A](https://www.code-inspector.com/project/6144/status/svg)
+
 ## Simple project deveolped while learning of golang
 
 
@@ -14,13 +14,11 @@ This project that is a example of
 - flash massages using cookies
 
 ```$
-////////////////////////////////////////////////
 clone the repo
-////////////////////////////////////////////////
+git clone url of the repo 
 
-////////////////////////////////////////////////
 go run main.go (OR) go build main.go 
-////////////////////////////////////////////////
+
 
 ```
 PR is welcome:)
