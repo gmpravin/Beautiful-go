@@ -1,6 +1,6 @@
 # Beautiful-go
 
-## Simple project deveolped while learning of golang
+## Simple project developed while learning of golang
 
 
 This project that is a example of 
