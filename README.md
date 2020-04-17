@@ -1,19 +1,19 @@
 # Beautiful-go
+![code quality A](https://www.code-inspector.com/project/6144/status/svg)
+## Simple project deveolped while learning of golang
 
-///////////////////////////////// Simple project deveolped while learning of go /////////////////////////////////////////////////
 
+This project that is a example of 
 
-This project that is a example of (
+- handling cookies, 
+- go validator,
+- sqlite3,
+- handling of templates,
+- reading and writing of files,
+- How to upload files,
+- flash massages using cookies
 
-handling cookies, 
-go validator,
-sqlite3,
-handling of templates,
-reading and writing of files,
-How to upload files,
-flash massages using cookies
-)
-
+```$
 ////////////////////////////////////////////////
 clone the repo
 ////////////////////////////////////////////////
@@ -22,7 +22,7 @@ clone the repo
 go run main.go (OR) go build main.go 
 ////////////////////////////////////////////////
 
-
+```
 PR is welcome:)
 
 
